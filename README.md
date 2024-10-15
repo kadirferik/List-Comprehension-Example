@@ -1,5 +1,5 @@
 # List-Comprehension-Example
-```
+```C
 import itertools
 import numpy as np
 if __name__ == "__main__":
@@ -60,3 +60,4 @@ if __name__ == "__main__":
             if ((coordinate3[g, 0] + coordinate3[g, 1] + coordinate3[g, 2]) != n):
                 coordinate1.append(coordinate2[g])
     print(coordinate1)
+```
